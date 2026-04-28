@@ -42,12 +42,4 @@ See every project at [→ full portfolio](https://github.com/yogigodaraa?tab=rep
 **Security** · MITRE ATT&CK, SIEM, IMAP/SMTP monitoring, Dependabot, OAuth, JWT, OWASP Top 10
 **Networking** · CCNP (BGP, OSPF, VLANs, QoS)
 
----
-
-## Let's connect
-
-- **Portfolio** · [yogender.dev](https://yogender.dev) *(if live — otherwise see the [portfolio repo](https://github.com/yogigodaraa/yogender-professional-portfolio))*
-- **Email** · yogender@we.money
-- **GitHub** · [yogigodaraa](https://github.com/yogigodaraa)
-
 Always open to collaborating on AI security, industrial data-quality problems, or anything that fits in the Venn diagram of *machine learning* and *things that really shouldn't fail*.
