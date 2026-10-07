@@ -33,7 +33,7 @@ Legend: ✅ done · 🟡 done, follow-up open · ⛔ blocked · ➖ not applicab
 | customer-support-dashboard | ⛔ | ➖ | ⛔ | ⛔ | ✅ | ⛔ Held for owner review |
 | CyberBreachAnalytics-, coursework ×2, visagio-hackathon | ➖ | ➖ | ➖ | ➖ | ➖ | Archived, so read-only |
 
-**Applied to every active public repo:** squash-only merges (PR title becomes the commit title),
+**Applied to every active public repo except `customer-support-dashboard` (held for owner review):** squash-only merges (PR title becomes the commit title),
 auto-merge allowed, merged branches auto-deleted, a `protect-main` ruleset (PR required, 0
 approvals, required CI checks, branch up to date, conversations resolved, no force-push or deletion,
 automatic Copilot code review), Dependabot alerts and security updates, private vulnerability
@@ -50,7 +50,7 @@ reporting, CodeQL default setup, a weekly `dependabot.yml`, and patch/minor-only
 | frame-map | Clean LangGraph state machine; offline stub mode makes tests credential-free | The deployed v1 has no tests while the tested v2 isn't deployed; unused heavy dependencies; Vite 8 upgrade had broken installs |
 | care-route | Sensible keyword plus combination triage rules; "call 000" escape hatch in the UI | "Worst headache of my life" was routed to GP (fixed); 14 lint errors; NT postcodes map to SA |
 | BlueSentinel | Strong v2 design (Drain3, DeepLog, Sigma, MITRE); a real test suite | Two detection regexes never matched as intended; graph scoring issues; v1 code duplicated |
-| MIB | Thoughtful data-quality service (outliers, drift, confidence) | No `.gitignore` (pyc files and logs committed); no tests; two READMEs |
+| MIB | Thoughtful data-quality service (outliers, drift, confidence) | Only smoke tests so far; two conflicting READMEs; root-level scripts duplicate `app/` |
 | TensionBot | Small and focused; good README | Neither test suite could run; generator origin needs crediting |
 | bhp | Detailed data-quality documentation | The actual app isn't in the repo (broken submodule) |
 | cctv-lab | Privacy by design in code (clip deletion, passcode, no identity) | No licence; no automated tests (GPU models) |
@@ -90,7 +90,7 @@ reporting, CodeQL default setup, a weekly `dependabot.yml`, and patch/minor-only
 ## Manual steps (web UI or extra token scopes)
 
 1. **Pin 6 repos:** orbit, SOCShield, frame-map, tradingbot, careers-hunter, BlueSentinel-Log-Analyzer.
-2. **Profile:** bio *"AI developer & security engineer · building BYOK AI tools, SOC automation and data-quality systems · Perth"*, website `yogigodara.com`, location *Perth, Australia*.
+2. **Profile:** bio *"AI developer & security engineer · building BYOK AI tools, SOC automation and data-quality systems"*, website `yogigodara.com`, and keep your existing location line.
 3. **Social preview images** (Settings → Social preview, 1280×640):
    orbit (two chat bubbles orbiting a heart/graph), SOCShield (shield over an email envelope with IOC tags),
    frame-map (an SOP page turning into a storyboard strip), tradingbot (candlesticks behind a "risk gate" barrier),
