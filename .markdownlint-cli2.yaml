@@ -1,0 +1,6 @@
+# Profile READMEs need inline HTML (comments, badges) and long table rows.
+config:
+  MD013: false        # line length
+  MD033: false        # inline HTML
+  MD041: false        # first line doesn't have to be a heading (README starts with a comment)
+  MD060: false        # table pipe spacing style (|---| is fine)
